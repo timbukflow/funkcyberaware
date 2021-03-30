@@ -3,43 +3,43 @@ $(document).ready(function(){
 $('.load').delay(1000).fadeOut();
 
 
-$('#home').bind('inview', function (event, visible) { 
-  if (visible == true) { 
+$('#home').bind('inview', function (event, visible) {
+  if (visible == true) {
     $('#n_home').addClass('inview');
   } else {
     $('#n_home').removeClass('inview');
   }
 });
-$('#funktionen').bind('inview', function (event, visible) { 
-  if (visible == true) { 
-    $('#n_funktionen').addClass('inview');
+$('#basic').bind('inview', function (event, visible) {
+  if (visible == true) {
+    $('#n_basic').addClass('inview');
   } else {
-    $('#n_funktionen').removeClass('inview');
+    $('#n_basic').removeClass('inview');
   }
 });
-$('#design').bind('inview', function (event, visible) { 
-  if (visible == true) { 
+$('#design').bind('inview', function (event, visible) {
+  if (visible == true) {
     $('#n_design').addClass('inview');
   } else {
     $('#n_design').removeClass('inview');
   }
 });
-$('#sicherheit').bind('inview', function (event, visible) { 
-  if (visible == true) { 
+$('#sicherheit').bind('inview', function (event, visible) {
+  if (visible == true) {
     $('#n_sicherheit').addClass('inview');
   } else {
     $('#n_sicherheit').removeClass('inview');
   }
 });
-$('#showcase').bind('inview', function (event, visible) { 
-  if (visible == true) { 
+$('#showcase').bind('inview', function (event, visible) {
+  if (visible == true) {
     $('#n_showcase').addClass('inview');
   } else {
     $('#n_showcase').removeClass('inview');
   }
 });
-$('#kundenfokus').bind('inview', function (event, visible) { 
-  if (visible == true) { 
+$('#kundenfokus').bind('inview', function (event, visible) {
+  if (visible == true) {
     $('#n_kundenfokus').addClass('inview');
   } else {
     $('#n_kundenfokus').removeClass('inview');
@@ -63,7 +63,7 @@ $('.scroll').click(function() {
   $('#kontakt').html("Kontakt");
 });
 
-$('#kontakt').click(function() { 
+$('#kontakt').click(function() {
 	$('.dropdown').slideToggle();
 	$(this).html() == "Schliessen" ? $(this).html('Kontakt') : $(this).html('Schliessen');
 	$('body').toggleClass('noscroll');
@@ -71,8 +71,8 @@ $('#kontakt').click(function() {
 });
 
 
-$('.fader').bind('inview', function (event, visible) { 
-  if (visible == true) { 
+$('.fader').bind('inview', function (event, visible) {
+  if (visible == true) {
     $(this).addClass('inview');
   } else {
     $(this).removeClass('inview');
@@ -80,7 +80,7 @@ $('.fader').bind('inview', function (event, visible) {
 });
 
 
-$(function() {    
+$(function() {
 var $allVideos = $("iframe[src^='https://player.vimeo.com'], iframe[src^='https://www.youtube.com'], object, embed"),
 $fluidEl = $(".video_holder");
 $allVideos.each(function() {
@@ -102,4 +102,4 @@ $el
 
 
 
-}); 
+});
