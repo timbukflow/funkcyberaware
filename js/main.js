@@ -17,18 +17,25 @@ $('#basic').bind('inview', function (event, visible) {
     $('#n_basic').removeClass('inview');
   }
 });
-$('#design').bind('inview', function (event, visible) {
+$('#advanced').bind('inview', function (event, visible) {
   if (visible == true) {
-    $('#n_design').addClass('inview');
+    $('#n_advanced').addClass('inview');
   } else {
-    $('#n_design').removeClass('inview');
+    $('#n_advanced').removeClass('inview');
   }
 });
-$('#sicherheit').bind('inview', function (event, visible) {
+$('#attack').bind('inview', function (event, visible) {
   if (visible == true) {
-    $('#n_sicherheit').addClass('inview');
+    $('#n_attack').addClass('inview');
   } else {
-    $('#n_sicherheit').removeClass('inview');
+    $('#n_attack').removeClass('inview');
+  }
+});
+$('#abonnement').bind('inview', function (event, visible) {
+  if (visible == true) {
+    $('#n_abonnement').addClass('inview');
+  } else {
+    $('#n_abonnement').removeClass('inview');
   }
 });
 $('#showcase').bind('inview', function (event, visible) {
@@ -36,6 +43,13 @@ $('#showcase').bind('inview', function (event, visible) {
     $('#n_showcase').addClass('inview');
   } else {
     $('#n_showcase').removeClass('inview');
+  }
+});
+$('#sicherheit').bind('inview', function (event, visible) {
+  if (visible == true) {
+    $('#n_sicherheit').addClass('inview');
+  } else {
+    $('#n_sicherheit').removeClass('inview');
   }
 });
 $('#kundenfokus').bind('inview', function (event, visible) {
