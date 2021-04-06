@@ -329,7 +329,8 @@ a  {
 .home_middle {
   position: relative;
   text-align: center;
-  width: 60%;
+  width: 52%;
+  margin: 0 4%;
   float: left;
   padding-top: 250px;
    background-image: url("images/home_center.svg");
