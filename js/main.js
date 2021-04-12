@@ -61,11 +61,16 @@ $('#kundenfokus').bind('inview', function (event, visible) {
 });
 
 
-$('#hamb').click(function() {
+$('#navburger').click(function() {
+  $(this).stop(true).toggleClass('open');
+  $('.navholder span').toggleClass('mobnavcloser')
   $('.navigation').toggle();
-  $(this).toggleClass('hambrotate');
 });
 
+$('.mobnavcloser').click(function() {
+  $('.navigation').toggle();
+  $('#navburger').removeClass('open');
+});
 
 
 $('.scroll').click(function() {
@@ -92,28 +97,5 @@ $('.fader').bind('inview', function (event, visible) {
     $(this).removeClass('inview');
   }
 });
-
-
-$(function() {
-var $allVideos = $("iframe[src^='https://player.vimeo.com'], iframe[src^='https://www.youtube.com'], object, embed"),
-$fluidEl = $(".video_holder");
-$allVideos.each(function() {
-$(this)
-.attr('data-aspectRatio', this.height / this.width)
-.removeAttr('height')
-.removeAttr('width');
-});
-$(window).resize(function() {
-var newWidth = $fluidEl.width();
-$allVideos.each(function() {
-var $el = $(this);
-$el
-.width(newWidth)
-.height(newWidth * $el.attr('data-aspectRatio'));
-});
-}).resize();
-});
-
-
 
 });
