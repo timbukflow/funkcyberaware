@@ -78,7 +78,7 @@ $('.scroll').click(function() {
 });
 
 $('#kontakt').click(function() {
-	$('.dropdown').slideToggle();
+	$('.dropdown').slideToggle(800);
 	$(this).html() == "Schliessen" ? $(this).html('Kontakt') : $(this).html('Schliessen');
 	$('body').toggleClass('noscroll');
 	$('.navigation').toggleClass('navigation_toggled');

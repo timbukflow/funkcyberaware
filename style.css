@@ -167,6 +167,7 @@ background-repeat: no-repeat;
   z-index: 999;
   left: 0px;
   right: 0px;
+  height: 40px;
 -webkit-overflow-scrolling: touch;
   background-color: #004C92;
   color: #fff;
@@ -174,18 +175,23 @@ background-repeat: no-repeat;
   padding-bottom: 22px;
   font-weight: 200;
   font-size: 17px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition:    all 0.2s ease-in-out;
-  -o-transition:      all 0.2s ease-in-out;
-  -ms-transition:     all 0.2s ease-in-out;
-  transition:         all 0.2s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition:    all 0.4s ease-in-out;
+  -o-transition:      all 0.4s ease-in-out;
+  -ms-transition:     all 0.4s ease-in-out;
+  transition:         all 0.4s ease-in-out;
 }
 .navigation_visi {
 
 }
 .navigation_toggled {
-  height: 100%;
-  overflow:auto;
+  height: 100vh;
+  overflow: auto;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition:    all 0.4s ease-in-out;
+  -o-transition:      all 0.4s ease-in-out;
+  -ms-transition:     all 0.4s ease-in-out;
+  transition:         all 0.4s ease-in-out;
 }
 
 .max1020 {
@@ -340,6 +346,7 @@ a  {
 .home_middle .home_logo {
   margin:0 auto;
   padding-bottom: 80px;
+  padding-top: 50px;
 }
 .home_middle h1,
 .home_middle h2,
@@ -576,6 +583,27 @@ p.rowtext {
 .footer span {
   float: left;
 }
+
+.imageholder-team {
+  width: 100%;
+  text-align: center;
+  margin: 60px 0 0;
+}
+
+.imageholder-team figure {
+  display: inline-block;
+}
+
+.imageholder-team figcaption {
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.imageholder-team img {
+  width: 200px;
+  padding: 0 10px;
+}
+
 
 
 
