@@ -60,18 +60,18 @@ $('#kundenfokus').bind('inview', function (event, visible) {
   }
 });
 
-
 $('#navburger').click(function() {
   $(this).stop(true).toggleClass('open');
-  $('.navholder span').toggleClass('mobnavcloser')
   $('.navigation').toggle();
+  $('body').removeClass('noscroll');
+  $('.dropdown').slideUp(800);
+  $('.navigation').removeClass('navigation_toggled');
 });
 
-$('.mobnavcloser').click(function() {
+$('span.navpoint').click(function() {
   $('.navigation').toggle();
   $('#navburger').removeClass('open');
 });
-
 
 $('.scroll').click(function() {
   var superscroll = $(this).attr('data-scroll');

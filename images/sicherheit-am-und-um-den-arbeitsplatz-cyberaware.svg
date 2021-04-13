@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.0" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.0" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="auto"
 	 viewBox="0 0 350 320" enable-background="new 0 0 350 320" xml:space="preserve">
 <g>
 	<g>
@@ -50,7 +50,7 @@
 		</defs>
 		<mask maskUnits="userSpaceOnUse" x="68.2" y="19.3" width="76.6" height="80.7" id="SVGID_9_">
 			<g filter="url(#Adobe_OpacityMaskFilter)">
-				
+
 					<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="-228.936" y1="458.1941" x2="-228.193" y2="458.1941" gradientTransform="matrix(-24.1019 -66.2195 -66.2195 24.1019 24939.0117 -26119.2559)">
 					<stop  offset="0" style="stop-color:#000000"/>
 					<stop  offset="6.697488e-02" style="stop-color:#282828"/>
@@ -66,7 +66,7 @@
 				<polygon clip-path="url(#SVGID_8_)" fill="url(#SVGID_10_)" points="90.4,100.1 68.2,39.2 122.7,19.3 144.9,80.3 				"/>
 			</g>
 		</mask>
-		
+
 			<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="-228.936" y1="458.1941" x2="-228.193" y2="458.1941" gradientTransform="matrix(-24.1019 -66.2195 -66.2195 24.1019 24939.0117 -26119.2559)">
 			<stop  offset="0" style="stop-color:#FFFFFF"/>
 			<stop  offset="2.369654e-02" style="stop-color:#F2F2F2"/>
@@ -79,7 +79,7 @@
 			<stop  offset="0.8256" style="stop-color:#20201E"/>
 			<stop  offset="1" style="stop-color:#1D1D1B"/>
 		</linearGradient>
-		<polygon clip-path="url(#SVGID_8_)" mask="url(#SVGID_9_)" fill="url(#SVGID_11_)" points="90.4,100.1 68.2,39.2 122.7,19.3 
+		<polygon clip-path="url(#SVGID_8_)" mask="url(#SVGID_9_)" fill="url(#SVGID_11_)" points="90.4,100.1 68.2,39.2 122.7,19.3
 			144.9,80.3 		"/>
 	</g>
 	<g>
@@ -151,7 +151,7 @@
 					c0.7,2.6,2.3,4.8,4.3,6.2l64.3,46.5c3.8,2.7,9.1,1.9,11.8-1.9c2.5-3.4,2-8.1-1-11l-52.9-51.3l-12-68.2
 					c-1.5-8.7-9.3-14.8-17.9-14.5C119.9,153.1,119.2,153.2,118.4,153.4"/>
 			</defs>
-			
+
 				<linearGradient id="SVGID_23_" gradientUnits="userSpaceOnUse" x1="129.1095" y1="228.4165" x2="156.4738" y2="217.404" gradientTransform="matrix(0.9992 -3.963692e-02 3.963692e-02 0.9992 -13.0248 19.2716)">
 				<stop  offset="0" style="stop-color:#6ECA44"/>
 				<stop  offset="1" style="stop-color:#86D776"/>
@@ -233,7 +233,7 @@
 				l79.7,3.1c4.7,0.2,8.6-3.5,8.8-8.2c0.2-4.3-2.9-7.9-6.9-8.7l-72.9-13.5l-48-50.4c-6.1-6.4-16-7.2-23-2.1
 				C33.7,131.8,33.1,132.4,32.5,132.9"/>
 		</defs>
-		
+
 			<linearGradient id="SVGID_39_" gradientUnits="userSpaceOnUse" x1="279.0793" y1="14.573" x2="226.3529" y2="-28.8095" gradientTransform="matrix(0.8098 -0.5867 0.5867 0.8098 -114.757 324.548)">
 			<stop  offset="0" style="stop-color:#001F38"/>
 			<stop  offset="1" style="stop-color:#003366"/>

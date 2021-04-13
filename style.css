@@ -375,7 +375,7 @@ a  {
   margin: 0 4%;
   float: left;
   padding-top: 250px;
-   background-image: url("images/home_center.svg");
+  background-image: url("images/home_center.svg");
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -426,7 +426,7 @@ a  {
 }
 
 .holder#home {
-  padding-top: 0px;
+  padding-top: 80px;
 }
 .iconholder {
   display: block;
@@ -468,12 +468,9 @@ h1.lead {
   width: 50%;
 }
 
-
-
 .textholder {
   padding-top: 85px;
 }
-
 
 #kundenfokus .rowimgholder {
   max-width: 200px;
@@ -667,6 +664,18 @@ p.rowtext {
 }
 
 @media (max-width: 880px) {
+  .holder#home {
+    padding-top: 0px;
+  }
+  #sicherheit.holder {
+    margin-top: 60px;
+  }
+  #interesse.holder {
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+  }
   .home_left, .home_right {
     display: none;
   }
@@ -693,6 +702,7 @@ p.rowtext {
       padding-left: 0px;
       padding-right: 0px;
       padding-bottom: 20px;
+      padding-top: 20px
   }
   .home_middle h3, .home_middle h2, h1.lead, h2.rowtitle, .thirty h2.rowtitle, #sicherheit h2.rowtitle, .interesse {
     text-align: center;
@@ -704,26 +714,32 @@ p.rowtext {
     display: table;
     margin-bottom: 20px;
   }
+  h2.rowtitle {
+    padding-left: 0px;
+  }
   p.rowtext {
     text-align: center;
+    padding-left: 0px;
   }
   .rowholder {
-      display: block;
-      padding-bottom: 30px;
+    display: block;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .thirty {
-      float: none;
-      width: unset !important;
-      text-align: center;
-      padding-bottom: 30px;
+    float: none;
+    width: unset !important;
+    text-align: center;
+    padding-bottom: 30px;
   }
   .thirty h2.rowtitle {
     padding-top: 10px;
     padding-bottom: 0px;
   }
   #kundenfokus .rowimgholder {
-      float: none;
-       margin:0 auto;
+    float: none;
+    margin:0 auto;
     display: table;
     padding-bottom: 20px;
   }
@@ -737,6 +753,8 @@ p.rowtext {
   .interesse {
     padding-top: 35px;
     padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .iconholder {
       padding-bottom: 15px;
@@ -771,16 +789,58 @@ p.rowtext {
     margin:0 auto;
   }
   .navigation #anmelden.button {
-  margin-left: 0px;
+    margin-left: 0px;
     margin:0 auto;
     margin-top: 10px;
   }
-
   .mobnav {
     display: block;
   }
   .holder {
       display: block;
       padding-top: 20px;
+      margin: 0 30px;
+  }
+  .iconholder img {
+    width: 35%;
+    margin-bottom: 20px;
+  }
+  .rowimgholder img {
+    width: 65%;
+  }
+  .video_holder {
+    width: 100%;
+    margin: 0;
+  }
+  .imageholder-team img {
+    width: 60%;
+  }
+  .imageholder-team figure {
+    margin-bottom: 20px;
+  }
+  .article_header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .iconholder img {
+    width: 50%;
+  }
+  .holder {
+    margin: 0 15px;
+  }
+  .home_middle {
+    background-image: url("images/home_center_resp.svg");
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .home_middle img {
+    width: 140px;
+  }
+  .socialmedia img {
+    margin-left: 10px;
+    width: 30px;
   }
 }
