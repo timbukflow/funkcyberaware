@@ -813,10 +813,11 @@ p.rowtext {
     margin: 0;
   }
   .imageholder-team img {
-    width: 60%;
+    width: 90%;
   }
   .imageholder-team figure {
     margin-bottom: 20px;
+    width: 30%;
   }
   .article_header {
     padding-left: 10px;
@@ -842,5 +843,8 @@ p.rowtext {
   .socialmedia img {
     margin-left: 10px;
     width: 30px;
+  }
+  .imageholder-team figure {
+    width: 70%;
   }
 }
