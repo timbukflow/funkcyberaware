@@ -68,11 +68,6 @@ $('#navburger').click(function() {
   $('.navigation').removeClass('navigation_toggled');
 });
 
-$('span.navpoint').click(function() {
-  $('.navigation').toggle();
-  $('#navburger').removeClass('open');
-});
-
 $('.scroll').click(function() {
   var superscroll = $(this).attr('data-scroll');
   $('html,body').animate({scrollTop:$(superscroll).offset().top}, 1000, 'easeInOutExpo');
